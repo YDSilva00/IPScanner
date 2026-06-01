@@ -110,9 +110,9 @@ namespace IPScanner
                 Padding   = new Padding(20, 0, 20, 0)
             };
 
-            string logoPath = System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\logo_klassmate.png"));
+            string logoPath = System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\logo.png"));
             if (!System.IO.File.Exists(logoPath)) {
-                logoPath = @"d:\Projects\2026\IPScanner\logo_klassmate.png";
+                logoPath = @"d:\Projects\2026\IPScanner\logo.png";
             }
 
             picLogo = new PictureBox
